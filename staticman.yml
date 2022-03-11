@@ -14,7 +14,7 @@ comments:
   path: "{options.slug}"
   requiredFields: ["name", "email", "comment"]
   transforms:
-  email: md5
+    email: "md5"
 reCaptcha: 
   enabled: true
   siteKey: "6Ld_osoeAAAAAN8NQmmqJBY6mdsBzfmxr0IXALAv"
