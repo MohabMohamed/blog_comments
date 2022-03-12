@@ -9,7 +9,7 @@ comments:
       type: date
       options:
         format: "iso8601"
-  moderation: true
+  moderation: false
   name: "mohab.dev"
   path: "{options.slug}"
   requiredFields: ["name", "email", "comment"]
